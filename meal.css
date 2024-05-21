@@ -1,0 +1,90 @@
+
+body{
+  
+        font-family: "Convergence", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+    
+}
+.happ{
+
+    text-align: center;
+    align-items: center;
+    color: rgb(0, 151, 230);
+    justify-content: center;
+}
+
+.search {
+    height: 50px;
+    box-shadow: 5px 10px 18px #417ff1;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+}
+
+.search:hover {
+    border: 2px solid rgb(74, 149, 248); 
+    box-shadow: 5px 10px 18px #63c2fa;
+}
+
+.search:focus {
+    border: 2px solid rgb(74, 149, 248); 
+    outline: none;
+}
+
+.input-group {
+    width: 100%;
+    max-width: 700px;
+    margin-top: 30px;
+}
+
+.btn {
+    border-radius: 5px 5px 5px 5px;
+}
+.name{
+
+    color: #11a1f5;
+}.btn{
+
+    background-color: #2797f3;
+    color: white;
+}
+
+.btn:hover{
+
+    background-color: #ec6a2d;
+    
+}
+.div_class{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.fa-regular {
+
+  font-size: 18rem;
+  color: #4fb8f5;
+  margin-bottom: 40px;
+
+}
+.sorry{
+
+    color: rgb(245, 33, 51);
+}
+.input-group .fa-magnifying-glass {
+    color: rgb(74, 149, 248); 
+}
+
+.input-group .form-control {
+    padding-left: 40px;
+}
+
+.input-group-text {
+    position: absolute;
+    left: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background-color: transparent;
+    z-index: 10;
+}
